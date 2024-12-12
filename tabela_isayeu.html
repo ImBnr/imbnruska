@@ -4,9 +4,100 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
+		<style>
+			table {
+				border-collapse: collapse;
+				width: 100%;
+				font-family: Arial, sans-serif;
+			}
+			th, td {
+				border: 1px solid black;
+				text-align: center;
+				padding: 8px;
+			}
+			th {
+				background-color: #b3d9ff;
+			}
+			.highlight {
+				background-color: #4A90E2;
+				font-weight: bold;
+				color: #2d8729;
+			}
+			.drugoihighlight{
+				background-color: #a3c2e6;
+				color: #2d8729;
+			}
+			.cwet
+			{
+				color:#e0372b;
+				background-color: #175ba8;
+			}
+			.note {
+				text-align: center;
+				font-size: 14px;
+				font-style: italic;
+				margin-top: 10px;
+			}
+			.dlss {
+				background-color:#a3c2e6;
+				font-weight: bold;
+				color: red;
+			}
+		</style>
 	</head>
-	<body bgcolor="grey">
-	tutaj będzie tabela 
+	<body>
+    <table>
+        <tr>
+            <th colspan="6">Karte graficzne &ndash; Isayeu Sviatoslau 2K1</th>
+        </tr>
+        <tr>
+            <th class="cwet">Model kraty graficznej</th>
+            <th class="cwet">Taktowanie rdzenia</th>
+            <th class="cwet">Rozmiar Pamięci</th>
+            <th class="cwet">Rdzenie CUDA</th>
+            <th class="cwet">Rekomendowana Moc zasilacza</th>
+            <th class="cwet">Technika upscalingu</th>
+        </tr>
+        <tr>
+            <td class="highlight">RTX 4090</td>
+            <td class="highlight">2565 MHz</td>
+            <td class="highlight">24 GB</td>
+            <td class="highlight">16384</td>
+            <td class="highlight">850W</td>
+            <td rowspan="5" class="dlss">Nvidia DLSS 3</td>
+        </tr>
+        <tr>
+            <td class="drugoihighlight">RTX 4080</td>
+            <td class="drugoihighlight">2205 MHz</td>
+            <td class="drugoihighlight">16 GB</td>
+            <td class="drugoihighlight">9728</td>
+            <td class="drugoihighlight">850W</td>
+        </tr>
+        <tr>
+            <td class="highlight">RTX 4070</td>
+            <td class="highlight">2475 MHz</td>
+            <td class="highlight">12 GB</td>
+            <td class="highlight">5888</td>
+            <td class="highlight">600W</td>
+        </tr>
+        <tr>
+            <td class="drugoihighlight">RTX 4060 TI</td>
+            <td class="drugoihighlight">2535 MHz</td>
+            <td class="drugoihighlight">16 GB</td>
+            <td class="drugoihighlight">4352</td>
+            <td class="drugoihighlight">650W</td>
+        </tr>
+        <tr>
+            <td class="highlight">RTX 4060</td>
+            <td class="highlight">2505 MHz</td>
+            <td class="highlight">8 GB</td>
+            <td class="highlight">3072</td>
+            <td class="highlight">450W</td>
+        </tr>
+        <tr>
+            <th class="cwet" colspan="6">Karte Graficzne RTX serii z 40</th>
+        </tr>
+    </table>
 	<br><a href="index.html">wróć</a>
 	</body>
 </html>
